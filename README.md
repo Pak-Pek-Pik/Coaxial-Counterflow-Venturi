@@ -7,6 +7,9 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
 Interactive 3D system model : 
 ![Half section view of the model](figures/system_model.stl)
 
+
+
+
 ![Half section view of the model](figures/Half_section_view_1_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_2_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_3_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_4_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_5_of_the_model.png)
 
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
@@ -69,6 +72,12 @@ This is a geometry study. The dimensioning rules come from ISO 5167 and from cla
 # Venturi coaxial à contre-courant
 
 Modèle CAO paramétrique d'un éjecteur Venturi eau/air miniature, écrit sous forme de code avec [CadQuery](https://github.com/CadQuery/cadquery) (noyau OpenCASCADE). La pièce entière est générée à partir d'une vingtaine de paramètres primaires, puis exportée en STEP, STL et SVG.
+
+Modèle 3D & interactif du système : 
+
+![Half section view of the model](figures/system_model.stl)
+
+
 
 ![Half section view of the model](figures/Half_section_view_1_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_2_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_3_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_4_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_5_of_the_model.png)
 
