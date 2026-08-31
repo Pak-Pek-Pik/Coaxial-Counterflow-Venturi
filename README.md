@@ -4,6 +4,9 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
 
 
 
+Interactive 3D system model : 
+![Half section view of the model](figures/system_model.stl)
+
 ![Half section view of the model](figures/Half_section_view_1_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_2_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_3_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_4_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_5_of_the_model.png)
 
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
@@ -103,7 +106,6 @@ La géométrie qui découle de ce constat :
 | 3 ailettes de guidage à 120 degrés dans l'anneau | Brisent la cohérence azimutale des cellules de Dean et maintiennent un retour axisymétrique |
 | Col alésé à 2,236 mm pour une aiguille de 1 mm | Compense l'encombrement de l'aiguille pour conserver un passage d'eau effectif de 2 mm |
 
-![Half section view of the model](figures/system_model.stl)
 
 ## Géométrie actuelle
 
