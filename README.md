@@ -71,7 +71,7 @@ Modèle CAO paramétrique d'un éjecteur Venturi eau/air miniature, écrit sous 
   <img src="output/preview_section.svg" width="720" alt="Vue en demi-coupe du modèle">
 </p>
 
-Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes-FR.pdf) (en anglais).
+Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes-FR.pdf) (en français).
 
 ## Principe
 
