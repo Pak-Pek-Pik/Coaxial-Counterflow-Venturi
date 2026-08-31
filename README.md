@@ -6,6 +6,8 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
   <img src="figures/Half_section_view_1_of_the_model" width="720" alt="Half section view of the model">
 </p>
 
+![Half section view of the model](figures/Half_section_view_1_of_the_model.png)
+
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
 
 
