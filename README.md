@@ -67,9 +67,7 @@ This is a geometry study. The dimensioning rules come from ISO 5167 and from cla
 
 Modèle CAO paramétrique d'un éjecteur Venturi eau/air miniature, écrit sous forme de code avec [CadQuery](https://github.com/CadQuery/cadquery) (noyau OpenCASCADE). La pièce entière est générée à partir d'une vingtaine de paramètres primaires, puis exportée en STEP, STL et SVG.
 
-<p align="center">
-  <img src="output/preview_section.svg" width="720" alt="Vue en demi-coupe du modèle">
-</p>
+![Half section view of the model](figures/Half_section_view_1_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_2_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_3_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_4_of_the_model.png)      ![Half section view of the model](figures/Half_section_view_5_of_the_model.png)
 
 Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes-FR.pdf) (en français).
 
