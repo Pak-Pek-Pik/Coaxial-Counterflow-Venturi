@@ -8,6 +8,9 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
 
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
 
+
+Longer discussion, with the boundary layer separation and Dean vortex arguments, is in [docs/design-notes.md](docs/design-notes.md).
+
 ## Principle
 
 The design decouples the two operations that a naive Venturi ejector superimposes at the throat: **turning the flow** and **accelerating it**.
@@ -40,7 +43,7 @@ The geometry that follows from this observation:
 | 3 guide vanes at 120 degrees in the annulus | Break the azimuthal coherence of the Dean vortex cells and keep the return flow axisymmetric |
 | Throat bored at 2.236 mm for a 1 mm needle | Compensates the blockage of the needle so the effective water passage stays at 2 mm |
 
-Longer discussion, with the boundary layer separation and Dean vortex arguments, is in [docs/design-notes.md](docs/design-notes.md).
+
 
 ## Current geometry
 
@@ -67,6 +70,8 @@ Modèle CAO paramétrique d'un éjecteur Venturi eau/air miniature, écrit sous 
 <p align="center">
   <img src="output/preview_section.svg" width="720" alt="Vue en demi-coupe du modèle">
 </p>
+
+Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes.md) (en anglais).
 
 ## Principe
 
@@ -100,7 +105,6 @@ La géométrie qui découle de ce constat :
 | 3 ailettes de guidage à 120 degrés dans l'anneau | Brisent la cohérence azimutale des cellules de Dean et maintiennent un retour axisymétrique |
 | Col alésé à 2,236 mm pour une aiguille de 1 mm | Compense l'encombrement de l'aiguille pour conserver un passage d'eau effectif de 2 mm |
 
-Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes.md) (en anglais).
 
 
 ## Géométrie actuelle
