@@ -3,7 +3,7 @@
 Parametric CAD model of a miniature water/air Venturi ejector, written as code with [CadQuery](https://github.com/CadQuery/cadquery) (OpenCASCADE kernel). The whole part is generated from about twenty primary parameters and exported to STEP, STL and SVG.
 
 <p align="center">
-  <img src="figures/Half" width="720" alt="Half section view of the model">
+  <img src="figures/Half_section_view_1_of_the_model" width="720" alt="Half section view of the model">
 </p>
 
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
