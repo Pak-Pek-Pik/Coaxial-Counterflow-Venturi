@@ -4,7 +4,7 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
 
 
 
-![Half section view of the model](figures/Half_section_view_1_of_the_model.png) ![Half section view of the model](figures/Half_section_view_2_of_the_model.png)
+![Half section view of the model](figures/Half_section_view_1_of_the_model.png) ![Half section view of the model](figures/Half_section_view_2_of_the_model.png) ![Half section view of the model](figures/Half_section_view_3_of_the_model.png)
 
 *[Version française plus bas.](#venturi-coaxial-à-contre-courant)*
 
