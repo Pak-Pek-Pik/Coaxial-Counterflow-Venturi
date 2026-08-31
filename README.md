@@ -42,26 +42,6 @@ The geometry that follows from this observation:
 
 Longer discussion, with the boundary layer separation and Dean vortex arguments, is in [docs/design-notes.md](docs/design-notes.md).
 
-## Repository layout
-
-```
-src/counterflow_venturi.py    parametric model, single file, no external assets
-output/counterflow_venturi.step   B-rep solid (AP214)
-output/counterflow_venturi.stl    mesh for printing or CFD preprocessing
-output/preview_isometric.svg      isometric wireframe
-output/preview_section.svg        half section through the axis
-docs/design-notes.md              physical justification of the dimensioning
-```
-
-## Running it
-
-```bash
-pip install -r requirements.txt
-python src/counterflow_venturi.py --output-dir output
-```
-
-The script prints a design report (effective and physical throat diameters, annular area ratio, cone lengths, overall envelope) and rewrites every export. All primary parameters sit at the top of the file, in millimetres and degrees.
-
 ## Current geometry
 
 | Quantity | Value |
@@ -90,7 +70,7 @@ Modèle CAO paramétrique d'un éjecteur Venturi eau/air miniature, écrit sous 
 
 ## Principe
 
-La conception découple les deux opérations qu'un éjecteur Venturi naïf superpose au col : **le retournement du fluide** et **son accélération**.
+La conception découple les deux opérations qu'un éjecteur Venturi superpose au col : **le retournement du fluide** et **son accélération**.
 
 1. L'eau entre par un orifice excentré en face avant et remplit un plénum annulaire externe.
 2. Elle parcourt la périphérie et effectue son demi tour à 180 degrés au fond, à basse vitesse.
@@ -122,25 +102,6 @@ La géométrie qui découle de ce constat :
 
 Le développement complet, avec les arguments de décollement de couche limite et de vortex de Dean, se trouve dans [docs/design-notes.md](docs/design-notes.md) (en anglais).
 
-## Organisation du dépôt
-
-```
-src/counterflow_venturi.py    modèle paramétrique, fichier unique, sans ressource externe
-output/counterflow_venturi.step   solide B-rep (AP214)
-output/counterflow_venturi.stl    maillage pour impression ou prétraitement CFD
-output/preview_isometric.svg      vue isométrique filaire
-output/preview_section.svg        demi coupe suivant l'axe
-docs/design-notes.md              justification physique du dimensionnement
-```
-
-## Utilisation
-
-```bash
-pip install -r requirements.txt
-python src/counterflow_venturi.py --output-dir output
-```
-
-Le script affiche un rapport de dimensionnement (diamètres de col effectif et physique, rapport de sections, longueurs des cônes, encombrement) et réécrit tous les exports. Les paramètres primaires sont regroupés en tête de fichier, en millimètres et en degrés.
 
 ## Géométrie actuelle
 
