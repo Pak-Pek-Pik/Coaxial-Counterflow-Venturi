@@ -4,8 +4,7 @@ Parametric CAD model of a miniature water/air Venturi ejector, written as code w
 
 
 
-Interactive 3D system model : 
-![Half section view of the model](figures/system_model.stl)
+Interactive 3D system model : ![Half section view of the model](figures/system_model.stl)
 
 
 
